@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/adaptiv.css" />
+    <title>СОЦІАЛЬНІ ПОСЛУГИ ТА ДОГЛЯД ВДОМА</title>
+  </head>
+  <body>
+    <!-- Шапка -->
+    <div class="emblema" id="header"></div>
+
+    <!-- Button -->
+    <div class="about" id="button"></div>
+
+    <!-- СОЦІАЛЬНІ ПОСЛУГИ ТА ДОГЛЯД ВДОМА -->
+    <div  style="margin-top: 1rem">
+      <h2 style="display: flex; justify-content: center">
+        СОЦІАЛЬНІ ПОСЛУГИ ТА ДОГЛЯД ВДОМА
+      </h2>
+      <div style="display: flex; justify-content: center">
+        <img
+          src="img/338512956_1173185373357913_8230677310460467763_n.jpg"
+          alt=""
+          style="width: 300px; margin-top: 15px"
+        />
+      </div>
+      <p
+        style="
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          padding-left: 20px;
+          margin-top: 10px;
+        "
+      >
+        Соціальні помічники Товариства Червоного Хреста України здійснюють
+        догляд вдома одиноких або умовно одиноких людей похилого віку, які
+        потребують сторонньої допомоги.
+      </p>
+      <br />
+      <p style="margin-bottom: 20px">
+        Послуги з догляду вдома в Товаристві Червоного Хреста України існують ще
+        з 1961 року, коли була заснована патронажна служба, яка на безкоштовній
+        основі здійснювала догляд за самотніми непрацездатними людьми похилого
+        вік. До 2017 року діяльність патронажної служби фінансувалось державою,
+        і з 2017 року у послугах догляду вдома був запроваджений новий
+        концептуальний підхід, і за підтримки партнерських організацій Червоного
+        Хреста цей проєкт продовжив свою діяльність лише в Луганській та
+        Донецькій областях, і потім був розширений ще в декількох областях
+        України.
+      </p>
+    </div>
+
+    <footer>
+      <div id="footer"></div>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script>
+      $(function () {
+        $("#footer").load("footer.html");
+      });
+      $(function () {
+        $("#header").load("header.html");
+      });
+      $(function () {
+        $("#button").load("button.html");
+      });
+    </script>
+    <script src="js/style.js"></script>
+  </body>
+</html>

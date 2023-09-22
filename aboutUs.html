@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/adaptiv.css" />
+    <link rel="stylesheet" href="fonts/Roboto/Roboto-Black.ttf" />
+    <link rel="shortcup icon" href="img/emblema3.jpg" />
+    <title>Про нас</title>
+  </head>
+  <body>
+    <!-- Шапка -->
+    <div class="emblema" id="header"></div>
+
+    <!-- Button -->
+    <div class="about" id="button"></div>
+
+    <div class="container" id="content-container">
+      <div id="aboutText">
+        <!-- style="display: none" -->
+        <h2 class="conteiner__aboutUS">ПРО НАС</h2>
+        <div class="about__text">
+          <!-- style="display: none" -->
+          <p style="padding-left: 10px">
+            Діяльність Товариства Червоного Хреста України ґрунтується на
+            Женевських конвенціях від 12 серпня 1949 року, а також на трьох
+            Додаткових Протоколах до них від 8 червня 1977 року (І, ІІ) та від 8
+            грудня 2005 року (ІІІ). Діяльність ТЧХУ регламентується Законом
+            України “Про Товариство Червоного Хреста України” 2014 р., Законом
+            України “Про символіку Червоного Хреста, Червоного Півмісяця,
+            Червоного Кристала в Україні” 2010 р., Указом Президента України від
+            28.10.1992 №548/92 “Про Товариство Червоного Хреста України”, а
+            також Статутом Товариства Червоного Хреста України.
+          </p>
+          <p style="padding-left: 20px">
+            Товариство визнане МКЧХ 29 вересня 1993 р. і рішенням ІХ сесії
+            Генеральної Асамблеї Міжнародної Федерації Товариств Червоного
+            Хреста і Червоного Півмісяця, прийняте колективним членом
+            Міжнародної Федерації Товариств Червоного Хреста і Червоного
+            Півмісяця.
+          </p>
+          <p style="padding-left: 20px; padding-right: 10px">
+            Діяльність Товариства відбувається за підтримки й у співпраці з
+            органами державної влади та місцевого самоврядування, громадськими
+            організаціями, корпоративним сектором, а також партнерами по
+            Міжнародному Руху: Міжнародним Комітетом Червоного Хреста (МКЧХ),
+            Міжнародною Федерацією Товариств Червоного Хреста і Червоного
+            Півмісяця (МФЧХ і ЧП) та з іншими національними товариствами.
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Подвал -->
+    <footer>
+      <div id="footer"></div>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script>
+      $(function () {
+        $("#footer").load("footer.html");
+      });
+      $(function () {
+        $("#header").load("header.html");
+      });
+      $(function () {
+        $("#button").load("button.html");
+      });
+    </script>
+    <script src="js/style.js"></script>
+  </body>
+</html>
