@@ -1,0 +1,294 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "roboto", sans-serif;
+}
+
+.emblema {
+  height: 100%;
+  transition: height 0.3s ease; /* Добавляем плавный переход */
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  background-color: #fff;
+}
+
+.emblemaZnaka {
+  /* position: relative; */
+  width: 280px;
+  height: 210px;
+  border-radius: 50%;
+  margin-top: -184px;
+  margin-left: 224px;
+}
+
+.links {
+  position: absolute;
+  top: 15px;
+  right: 40px;
+  color: white;
+  cursor: pointer;
+}
+
+.links > a {
+  color: white;
+  text-decoration: none;
+  padding-left: 10px;
+}
+
+.welcom {
+  display: flex;
+  justify-content: center;
+  z-index: 98;
+  width: 100%;
+  height: 50px;
+  position: fixed;
+  background-color: white;
+}
+
+.welcom > h3 {
+}
+
+.welcom__center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.about {
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  /* margin-top: 30px; */
+}
+
+.about__text {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+  padding-top: 20px;
+  padding-bottom: 50px;
+}
+
+.psychoSocialDescription {
+  width: 400px;
+  text-align: center;
+  padding-top: 20px;
+  padding-bottom: 50px;
+}
+
+.about__menu {
+  /* margin-left: 10px; */
+  /* display: flex; */
+  justify-content: center;
+  align-items: center;
+  /* cursor: pointer; */
+}
+
+.container {
+  /* display: inline-block; */
+  vertical-align: top;
+  margin-right: 10px;
+}
+
+.conteiner__aboutUS {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 1rem;
+}
+
+.about > div > p {
+  width: 400px;
+}
+
+.button {
+  display: flex;
+  position: fixed;
+  justify-content: space-between;
+  align-items: flex-start;
+  /* top: 20%; */
+  width: 100%;
+  padding-top: 2%;
+  /* margin-top: 2%; */
+  z-index: 99;
+  background-color: #fff;
+}
+.buttonSection:active,
+.buttomteam:active,
+.psychoSocialSupport:active,
+.about__us:active {
+  background-color: #ca1c1a;
+  color: #ffffff;
+  border: 1px solid black;
+}
+
+.buttonSection:hover,
+.buttomteam:hover,
+.psychoSocialSupport:hover,
+.about__us:hover {
+  background-color: #ca1c1a;
+  color: #ffffff;
+  border: 1px solid black;
+  border-radius: 20%;
+}
+
+.buttonSection,
+.buttomteam,
+.psychoSocialSupport,
+.about__us {
+  width: 100%;
+  white-space: normal;
+  text-align: center;
+  border: none;
+  background: none;
+  font-weight: bold;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+.buttonSection a,
+.buttomteam a,
+.psychoSocialSupport a,
+.about__us a {
+  text-decoration: none;
+  color: black;
+}
+
+.WeAreNear,
+.psychosocialAssistance {
+  display: flex;
+  justify-content: center;
+  padding-top: 4rem;
+  padding-bottom: 20px;
+  width: 100%;
+}
+
+.WeAreNear video {
+  position: fixed;
+  top: 8%;
+  right: 3%;
+  z-index: 1000;
+  width: 300px;
+}
+
+.nav {
+  margin-top: 1rem;
+}
+
+.news {
+  text-align-last: center;
+  background-color: #cc1c1a;
+  height: 50px;
+  text-align: center;
+  font-size: 25px;
+  color: #fff;
+}
+
+.allNews {
+  text-align-last: center;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.newsTitle {
+  margin-bottom: 10px;
+}
+
+.newsBlock {
+  margin-top: 50px;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+}
+
+.newsBlockText {
+  width: 400px;
+}
+
+.blockText {
+  text-align: center;
+  padding: 0 10px;
+}
+
+.psychosocialAssistance {
+  display: block;
+}
+.psychosocialAssistance h2 {
+  display: flex;
+  justify-content: center;
+}
+
+.team {
+  display: flex;
+  justify-content: center;
+  margin-top: 4rem;
+}
+
+.section {
+  display: block;
+}
+
+.personal__photo {
+  width: 200px;
+  height: 200px;
+  border-radius: 50% 10%;
+  padding-top: 10px;
+}
+.description {
+  display: flex;
+}
+
+.block {
+  /* opacity: 0; */
+  transition: opacity 0.5s, transform 0.5s;
+  margin-left: 20px;
+}
+
+.blockLeft {
+  /* opacity: 0;
+  transform: translateX(-100%); */
+  transition: opacity 0.5s ease, transform 0.5s ease;
+  margin-top: 20px;
+}
+
+.blockRight {
+  /* opacity: 0;
+  transform: translateX(100%); */
+  transition: opacity 10s ease, transform 10s ease;
+  margin-top: 20px;
+}
+
+/* Анимация появления блока справа налево */
+.block.animate {
+  opacity: 1;
+  transform: translateX(0);
+  transition: 1.5s;
+}
+
+.description__all {
+  margin-left: 20px;
+  margin-top: 20px;
+}
+
+.description__person {
+  margin-top: 5px;
+}
+
+.medical {
+  margin-top: 1rem;
+}
+
+.medicalTeam {
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+}
+
+.footer {
+  background-color: #ca1c1a;
+  display: flex;
+  justify-content: space-around;
+}
