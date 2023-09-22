@@ -11,7 +11,7 @@ function newsBlocks (title, text, video, img) {
             </p>
           </div>
           <div>
-            ${video ? `<video src="${video}" controls width="400px" height="700px"></video>` : ""}
+            ${video ? `<video src="${video}" controls width="400px" height="700px"> <source src="video.mov" type="video/quicktime"> </video>` : ""}
             ${img ? `<img src="${img}" alt="" style="width: 400px; height: 400px" />` : ""}
           </div>
         </div>
