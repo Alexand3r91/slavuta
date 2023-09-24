@@ -158,10 +158,28 @@
 .buttomteam:hover,
 .psychoSocialSupport:hover,
 .about__us:hover {
-  background-color: #ca1c1a;
+  /* background-color: #ca1c1a;
   color: #ffffff;
-  border-bottom: 1px solid black;
+  border-bottom: 2px solid black; */
   /* border-radius: 20%; */
+
+  background-image: linear-gradient(to right, #ca1c1a, #ffffff, #ca1c1a);
+  background-size: 200% 100%;
+  animation: gradientShift 2s linear infinite;
+  border-radius: 30% ;
+  color: #ffffff;
+  padding: 10px 20px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+@keyframes gradientShift {
+  0% {
+    background-position: 100% 0;
+  }
+  100% {
+    background-position: -100% 0;
+  }
 }
 
 .buttonSection,
