@@ -163,7 +163,7 @@
   border-bottom: 2px solid black; */
   /* border-radius: 20%; */
 
-  background-image: linear-gradient(to right, #ca1c1a, #ffffff, #ca1c1a);
+  background-image: linear-gradient(to right, #ca1c1a, #dfd9d9, #ca1c1a);
   background-size: 200% 100%;
   animation: gradientShift 2s linear infinite;
   border-radius: 30% ;
