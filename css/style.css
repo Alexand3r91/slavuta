@@ -166,9 +166,9 @@
   background-image: linear-gradient(to right, #ca1c1a, #dfd9d9, #ca1c1a);
   background-size: 200% 100%;
   animation: gradientShift 2s linear infinite;
-  border-radius: 30% ;
+  border-radius: 20% ;
   color: #ffffff;
-  padding: 10px 20px;
+  /* padding: 10px 20px; */
   cursor: pointer;
   font-size: 16px;
 }
