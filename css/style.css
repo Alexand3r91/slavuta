@@ -160,8 +160,8 @@
 .about__us:hover {
   background-color: #ca1c1a;
   color: #ffffff;
-  border: 1px solid black;
-  border-radius: 20%;
+  border-bottom: 1px solid black;
+  /* border-radius: 20%; */
 }
 
 .buttonSection,
